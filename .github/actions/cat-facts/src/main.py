@@ -20,7 +20,7 @@ for fact in r_obj_list:
 # Select a random fact from the fact_list and return it
 # into a variable named random_fact so we can use it
 def select_random_fact(fact_arr):
-    if len(fact_list) == 0
+    if len(fact_list) == 0:
         return "Cat is cat"
     return fact_arr[random.randint(0, len(fact_list)+1)]
 
