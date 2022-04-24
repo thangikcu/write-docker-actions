@@ -22,7 +22,7 @@ for fact in r_obj_list:
 def select_random_fact(fact_arr):
     if len(fact_list) == 0:
         return "Cat is cat"
-    return fact_arr[random.randint(0, len(fact_list)+1)]
+    return fact_arr[random.randint(0, len(fact_list) - 1)]
 
 random_fact = select_random_fact(fact_list)
 
