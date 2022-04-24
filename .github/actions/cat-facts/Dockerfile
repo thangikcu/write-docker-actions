@@ -1,4 +1,4 @@
-FROM python:3 -m venv tutorial-env
+FROM python:3
 
 RUN python3 -m venv tutorial-env
 
